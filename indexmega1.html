@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title>Feet to Cm Length Converter</title>
+<body>
+  <div style="height: 800px; width: 100%;">
+    <div style="background-color: black; height:400px; width: 400px; margin-left: 40%;">
+    <h1 style="color: white; text-align:center">Unit Converter</h1>
+    <label for="number" style="color: white; margin-left: 20%;">Feet:</label>
+<input type="number" id="myNum" style="margin-left: 0%;"><br><br>
+<p id="convert" style="color: red; text-align: center;"></p><br><br>
+<button type="button" onclick="feet()" style="margin-left: 40%;">Convert to CM</button>
+    </div>
+  </div>
+  <script>
+    function feet(){
+      let val = document.getElementById('myNum').value = ;
+      document.getElementById('convert').innerHTML = val*30;
+    }
+
+  </script>
+  
+ 
+
+</body>
+</html>
